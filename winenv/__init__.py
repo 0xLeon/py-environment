@@ -111,4 +111,4 @@ def notify_env_change():
     """Sends the necesarry Windows message to the system to notify the environment change"""
 
     # SendNotifyMessageW(HWND_BROADCAST, WM_SETTINGCHANGE, NULL, "Environment")
-    ctypes.windll.user32.SendNotifyMessageW(0xffff, 0x001a, None, "Environment".encode('utf_16'))
+    ctypes.windll.user32.SendNotifyMessageW(0xffff, 0x001a, None, "Environment")
