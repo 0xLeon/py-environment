@@ -84,7 +84,7 @@ def append_env_var(name, avalue, prepend=False, separator=';', env=ENV_SYSTEM):
     except WindowsError:
         pass
 
-    if not val:
+    if val:
         if prepend:
             val = avalue + separator + val
         else:
