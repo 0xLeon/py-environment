@@ -13,5 +13,7 @@ setup(
 
     packages=find_packages(),
 
-    install_requires=['future']
+    install_requires=[
+        'future'
+    ],
 )
