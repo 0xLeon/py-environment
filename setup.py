@@ -2,18 +2,18 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(
-    name='winenv',
-    version='0.0.0',
+	name='winenv',
+	version='0.0.0',
 
-    url='https://github.com/0xLeon/py-environment',
-    author='Stefan Hahn',
-    author_email='development@0xleon.com',
+	url='https://github.com/0xLeon/py-environment',
+	author='Stefan Hahn',
+	author_email='development@0xleon.com',
 
-    license='MIT',
+	license='MIT',
 
-    packages=find_packages(),
+	packages=find_packages(),
 
-    install_requires=[
-        'future'
-    ],
+	install_requires=[
+		'future'
+	],
 )
