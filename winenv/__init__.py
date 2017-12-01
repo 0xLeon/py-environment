@@ -2,9 +2,11 @@
 
 from __future__ import unicode_literals
 from __future__ import absolute_import
-from builtins import str as text
+
 import os
 import ctypes
+
+from builtins import str as text
 
 try:
     import winreg
